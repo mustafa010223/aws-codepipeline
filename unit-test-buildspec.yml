@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 0.2
 phases:
   install:
@@ -10,4 +11,18 @@ phases:
       - npm install
   build:
     commands:
+=======
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install -g @angular/cli@9.0.6
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+>>>>>>> b8ee6c4779058e14857adee0cf1c64ea2e06b0b4
       - ng test --no-watch --no-progress --browsers=ChromeHeadlessCI

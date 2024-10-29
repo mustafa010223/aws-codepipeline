@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
@@ -16,3 +17,23 @@
     "src/**/*.d.ts"
   ]
 }
+=======
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "src/test.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
+>>>>>>> b8ee6c4779058e14857adee0cf1c64ea2e06b0b4

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -21,3 +22,28 @@
     "strictInjectionParameters": true
   }
 }
+=======
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
+>>>>>>> b8ee6c4779058e14857adee0cf1c64ea2e06b0b4

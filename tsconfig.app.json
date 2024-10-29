@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
@@ -12,3 +13,19 @@
     "src/**/*.d.ts"
   ]
 }
+=======
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": []
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+}
+>>>>>>> b8ee6c4779058e14857adee0cf1c64ea2e06b0b4
